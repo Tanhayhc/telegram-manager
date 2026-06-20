@@ -1,0 +1,28 @@
+# Telegram
+aiogram==3.13.1
+telethon==1.36.0
+
+# Database
+sqlalchemy[asyncio]==2.0.36
+asyncpg==0.30.0
+alembic==1.14.0
+
+# Redis (FSM)
+redis==5.2.1
+aiogram-redis-storage==0.1.0
+
+# Settings
+pydantic==2.10.3
+pydantic-settings==2.6.1
+
+# Scheduler
+apscheduler==3.10.4
+
+# S3 backup upload (optional)
+aiobotocore==2.15.2
+
+# Logging
+python-json-logger==3.2.0
+
+# Async HTTP
+aiohttp==3.11.10
